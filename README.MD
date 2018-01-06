@@ -7,7 +7,7 @@ https://github.com/matteocontrini/sms-wp-to-android
 After you created the backup in xml, port it to your computer and run:
 
 ```
-cd ./windows_phone_file_format
+cd <PROJECT_DIRECTORY>
 npm i
 node ./src/index.js -d <PATH_TO_BACKUP_FOLDER> -f pdf -o<PATH_TO_OUTPUT_FOLDER>
 ```
